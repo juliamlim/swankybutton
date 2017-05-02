@@ -1,8 +1,11 @@
 # Swanky Button
 A swanky button template for you to add to any page! Just add the `swanky-button` file to your site and link it by typing:
 ```html
-<link href="swanky-button/swanky-button.php" rel="import"/>
-<script src="swanky-button/swanky-button.js" type="text/javascript"></script>
+<head>
+  ...
+  <link href="swanky-button/swanky-button.php" rel="import"/>
+  <script src="swanky-button/swanky-button.js" type="text/javascript"></script>
+</head>
 ```
 ## Make a new button
 To create a new swanky button on your page add this element anywhere!
