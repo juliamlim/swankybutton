@@ -1,5 +1,5 @@
 <?php
-    $color = "#f00";
+    $color = "steelblue";
     $text = "#fff";
 ?>
 <!DOCTYPE html>
