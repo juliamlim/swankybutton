@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<template id="swanky-button">
+<template id="swanky-button">  
     <style>
         #button {
-          width: 70px;
-          height: 70px;
-          margin: 10px;
-          position: relative;
-          border: none;
-          border-radius: 50%;
-          background: none;
-          cursor: pointer; }
-          #button::before {
+            width: 70px;
+            height: 70px;
+            position: relative;
+            border: none;
+            border-radius: 50%;
+            background: none;
+            font-size: 20px;
+            cursor: pointer; 
+        }
+        #button::before {
             content: '';
             width: 90px;
             height: 90px;
@@ -21,8 +22,9 @@
             z-index: -5;
             border-radius: 50%;
             box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.4s ease, transform 0.4s ease; }
-          #button::after {
+            transition: background-color 0.4s ease, transform 0.4s ease; 
+        }
+        #button::after {
             content: '';
             width: 70px;
             height: 70px;
@@ -33,24 +35,33 @@
             z-index: -1;
             box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
             border-radius: 50%;
-            transition: background-color 0.4s ease, transform 0.4s ease; }
-          #button:focus {
-            outline: 0; }
-          #button:hover::before {
+            transition: background-color 0.4s ease, transform 0.4s ease; 
+        }
+        #button:focus {
+            outline: 0; 
+        }
+        #button:hover::before {
             background-color: #a3ddd7;
-            transform: scale(0.99, 0.99); }
-          #button:hover::after {
+            transform: scale(0.99, 0.99); 
+        }
+        #button:hover::after {
             background-color: #d0eeea;
-            transform: scale(1.02, 1.02); }
-          #button:active::before {
+            transform: scale(1.02, 1.02); 
+        }
+        #button:active::before {
             background-color: #C1E8E4;
-            transform: scale(1.02, 1.02); }
-          #button:active::after {
+            transform: scale(1.02, 1.02); 
+        }
+        #button:active::after {
             background-color: #bae5e1;
-            transform: scale(0.9, 0.9); }
+            transform: scale(0.9, 0.9); 
+        } 
+        #color {
+            display: none;
+        }
     </style>
     <button id="button">
-        <slot id="color" name="swanky-color"></slot>
+        <span id="color"><slot name="swanky-color"></slot></span>
         <slot name="swanky-text"></slot>
     </button>
 </template>

@@ -1,6 +1,6 @@
 ﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-Include this file to implement the ** SWANKY ** button on your page
+Include this file to implement the ** SWANKY-BUTTON ** on your page
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
