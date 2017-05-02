@@ -1,2 +1,2 @@
 # swankybutton
-A cool button module you can add to any page!
+A cool button template you can add to any page!
