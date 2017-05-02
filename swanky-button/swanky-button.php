@@ -1,6 +1,6 @@
 <?php
-    $color = "#bed";
-    $text = "#f00";
+    $color = "#f00";
+    $text = "#fff";
 ?>
 <!DOCTYPE html>
 <template id="swanky-button">
