@@ -3,8 +3,8 @@ A swanky button template for you to add to any page! Just add the `swanky-button
 ```html
 <head>
   ...
-  <link href="swanky-button/swanky-button.php" rel="import"/>
-  <script src="swanky-button/swanky-button.js" type="text/javascript"></script>
+  <link href="path/to/swanky-button/swanky-button.php" rel="import"/>
+  <script src="path/to/swanky-button/swanky-button.js" type="text/javascript"></script>
 </head>
 ```
 ## Make a new button
