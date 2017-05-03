@@ -1,6 +1,6 @@
 # :v: Swanky Button
 
-![Swanky Button in 3 states](/swank.png "Swanky Button")
+![Swanky Button in 3 states](/swank.png | width=250)
 
 A swanky button template for you to add to any page! Just add the `swanky-button` file to your site and link it by typing:
 ```html
@@ -24,3 +24,5 @@ To create a new swanky button on your page add this element anywhere!
 ```
 ### Changing the color
 If you want to change the colors of all the buttons on the site open `swanky-button/swanky-button.php` and change the color and text php variables.
+
+Note: Must run on a server to work!
