@@ -1,6 +1,6 @@
 # :v: Swanky Button
 
-![Swanky Button in 3 states](/swank.png | width=250)
+![Swanky Button in 3 states](/swank.png)
 
 A swanky button template for you to add to any page! Just add the `swanky-button` file to your site and link it by typing:
 ```html
